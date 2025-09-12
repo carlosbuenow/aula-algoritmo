@@ -2,16 +2,16 @@ import input from 'readline-sync'
 
 let Tabuada = input.questionInt("Digite um número:")
 
-Resp1 = Tabuada * 1
-Resp2 = Tabuada * 2
-Resp3 = Tabuada * 3
-Resp4 = Tabuada * 4
-Resp5 = Tabuada * 5
-Resp6 = Tabuada * 7
-Resp7 = Tabuada * 7
-Resp8 = Tabuada * 8
-Resp9 = Tabuada * 9
-Resp10 = Tabuada * 10
+let resp1 = Tabuada * 1
+let resp2 = Tabuada * 2
+let resp3 = Tabuada * 3
+let resp4 = Tabuada * 4
+let resp5 = Tabuada * 5
+let resp6 = Tabuada * 7
+let resp7 = Tabuada * 7
+let resp8 = Tabuada * 8
+let resp9 = Tabuada * 9
+let resp10 = Tabuada * 10
 
 
 
