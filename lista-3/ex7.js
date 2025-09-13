@@ -14,8 +14,9 @@ if (num1<num2 && num1<num3 && num2<num3){
  if(num3<num1 && num3<num2 && num2<num1){
     console.log("Os números são: ", num3, ",", num2, "e", num1)
 }
+//Separação//
 if (num1>num2 && num1>num3 && num2<num3){
-    console.log("Os números são: ", num1, ",", num2, "e", num3)
+    console.log("Os números são: ", num2, ",", num3, "e", num1)
     
 } else{
      if(num2>num1 && num2>num3 && num1<num3){
@@ -23,4 +24,17 @@ if (num1>num2 && num1>num3 && num2<num3){
 } else{
  if(num3>num1 && num3>num2 && num2<num1){
     console.log("Os números são: ", num2, ",", num1, "e", num3)
-}}}}}
+//Separação//
+}else{
+    if(num3>num2 && num3>num1 && num1<num2){
+        console.log("Os números são: ", num1, ",", num2, ",", num3)
+    }
+ else{
+    if(num2>num1 && num2>num3 && num1<num3){
+        console.log("Os números são: ", num1, ",", num3, ",", num2)
+    }
+else{
+    if(num2>num1 && num2>num3 && num3<num1)
+        console.log("Os números são: ", num3, ",", num1, ",", num2)
+//Separação//
+}}}}}}}
