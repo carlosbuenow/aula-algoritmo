@@ -4,9 +4,9 @@ let numero = -1;
 let maior = null;
 let menor = null;
 
-while(numero == 0){
+while(numero != 0){
     numero = input.questionInt("Digite um número (0 para sair): ");
-    if(numero == 0){
+    if(numero != 0){
         if(maior==null && numero > maior){
             maior = numero;
         }
